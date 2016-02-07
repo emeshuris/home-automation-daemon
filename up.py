@@ -1,4 +1,3 @@
-import RPi.GPIO #as GPIO
 from gpio_common import GPIO
 
 chan_list = [10]
