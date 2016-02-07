@@ -1,5 +1,5 @@
 from gpio_common import GPIO
+from gpio_common import chan_list
 
-chan_list = [10]
 GPIO.setup(chan_list, GPIO.OUT)
 GPIO.output(chan_list, GPIO.LOW)
