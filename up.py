@@ -1,4 +1,5 @@
-import gpio_common
+import RPi.GPIO #as GPIO
+from gpio_common import GPIO
 
 chan_list = [10]
 GPIO.setup(chan_list, GPIO.OUT)
