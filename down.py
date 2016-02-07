@@ -1,6 +1,5 @@
-import RPi.GPIO as GPIO
-GPIO.setmode(GPIO.BOARD)
-GPIO.setwarnings(False)
+import gpio_common
+
 chan_list = [10]
 GPIO.setup(chan_list, GPIO.OUT)
 GPIO.output(chan_list, GPIO.LOW)
